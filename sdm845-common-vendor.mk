@@ -13,6 +13,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/com.lge.ims.httpTxn.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.lge.ims.httpTxn.xml \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/com.lge.wfcsupport.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.lge.wfcsupport.xml \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/lgdataservice-manager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/lgdataservice-manager.xml \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/lgsvcitems.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/lgsvcitems.xml \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/permissions/privapp-permissions-lge-caymanslm-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lge-caymanslm-system_ext.xml \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ipsec/ipsec.conf \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ipsec/strongswan.conf \
+    vendor/lge/sdm845-common/proprietary/system_ext/etc/ipsec/updown_script:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ipsec/updown_script \
     vendor/lge/sdm845-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/lge/sdm845-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/lge/sdm845-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
